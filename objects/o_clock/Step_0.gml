@@ -15,5 +15,6 @@ if time == 0
 	ini_write_real("MyState", "Money", o_player.my_money );
 	ini_write_real("MyState", "happiness", o_player.my_happniess );
 	ini_close();
+	audio_stop_all();
 	room_goto(r_bedroom);
 }

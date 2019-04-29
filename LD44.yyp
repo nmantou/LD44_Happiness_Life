@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "98d6c544-e8bb-43b3-b419-fcda1bc99abd",
+            "Value": {
+                "id": "1aa87dcd-6206-46ad-9e17-039d9c16e1ce",
+                "resourcePath": "sounds\\sound_work_bgm\\sound_work_bgm.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "99aa588d-fa1d-4303-b8eb-98f6c15ab34b",
             "Value": {
                 "id": "e4a9bfe0-e783-4209-88dc-7ff1590d551a",
