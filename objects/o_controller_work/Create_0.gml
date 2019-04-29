@@ -6,4 +6,9 @@ level = 1;
 text = "Day "+string(int64(day));
 alarm[0] = room_speed*2;
 paper_count = 0;
-audio_play_sound(sound_work_bgm, 1, false);
+if day <= 2
+	audio_play_sound(sound_work_day1, 1, false);
+if day > 2 && day < 4
+	audio_play_sound(sound_work_day4, 1, false);
+if day >= 4
+	audio_play_sound(sound_work_bgm, 1, false);

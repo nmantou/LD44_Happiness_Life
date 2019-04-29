@@ -24,8 +24,22 @@ if switch_load_data
 if my_health > 100
 	my_health = 100;
 if my_health < 0
+{
+	audio_stop_all();
 	room_goto(r_tired);
+}
 if my_happniess > 100
+{
+	audio_stop_all();
 	room_goto(r_happiness);
+}
 if my_happniess < 0
+{
+	audio_stop_all();
 	room_goto(r_unhappiness);
+}
+if my_money < 0
+{
+	audio_stop_all();
+	room_goto(r_bankrupt);
+}
